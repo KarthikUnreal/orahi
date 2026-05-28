@@ -328,7 +328,7 @@ function Landing() {
 
       {/* Team */}
       <section
-        id="end"
+        id="team"
         className="scroll-mt-20 px-4 lg:px-8 py-20 border-t border-border/40"
       >
       
