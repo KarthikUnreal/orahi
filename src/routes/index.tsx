@@ -328,33 +328,10 @@ function Landing() {
 
       {/* Team */}
       <section
-        id="team"
+        id="end"
         className="scroll-mt-20 px-4 lg:px-8 py-20 border-t border-border/40"
       >
-        <div className="mx-auto max-w-6xl">
-          <div className="inline-flex items-center gap-2 text-xs uppercase tracking-[0.18em] text-primary">
-            <Users className="size-3.5" /> Team
-          </div>
-          <h2 className="mt-4 text-3xl lg:text-5xl font-semibold tracking-tight max-w-3xl">
-            Built by shoppers who got fooled one too many times.
-          </h2>
-          <div className="mt-12 grid sm:grid-cols-2 lg:grid-cols-4 gap-3">
-            {[
-              { n: "Priya Sharma", r: "Co-founder, Product", i: "PS" },
-              { n: "Arjun Mehta", r: "Co-founder, AI", i: "AM" },
-              { n: "Riya Kapoor", r: "Head of Trust", i: "RK" },
-              { n: "Karan Iyer", r: "Engineering Lead", i: "KI" },
-            ].map((m) => (
-              <div key={m.n} className="rounded-3xl glass p-5">
-                <div className="size-14 rounded-2xl bg-gradient-trust grid place-items-center text-primary-foreground font-semibold">
-                  {m.i}
-                </div>
-                <div className="mt-4 text-sm font-semibold">{m.n}</div>
-                <div className="text-xs text-muted-foreground">{m.r}</div>
-              </div>
-            ))}
-          </div>
-
+      
           {/* Final CTA */}
           <div className="mt-20 rounded-3xl glass-strong p-8 lg:p-12 relative overflow-hidden">
             <div className="absolute inset-0 grid-bg opacity-20 pointer-events-none" />
