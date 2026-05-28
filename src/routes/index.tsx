@@ -58,7 +58,7 @@ function Landing() {
             </div>
             <div className="hidden sm:block">
               <div className="text-[15px] font-semibold tracking-tight">
-                TrustCart
+                Slash
               </div>
               <div className="text-[10px] uppercase tracking-[0.18em] text-muted-foreground -mt-0.5">
                 Honest prices
@@ -119,14 +119,14 @@ function Landing() {
             transition={{ duration: 0.6 }}
             className="inline-flex items-center gap-2 rounded-full glass px-3 py-1.5 text-xs uppercase tracking-[0.18em] text-muted-foreground"
           >
-            <Sparkles className="size-3.5 text-primary" /> About TrustCart
+            <Sparkles className="size-3.5 text-primary" /> About Slash
           </motion.div>
           <h1 className="mt-5 text-4xl sm:text-5xl lg:text-7xl font-semibold tracking-tight leading-[1.02] max-w-4xl">
             Shopping online,{" "}
             <span className="text-gradient-aurora">without the lies.</span>
           </h1>
           <p className="mt-5 max-w-2xl text-base lg:text-lg text-muted-foreground leading-relaxed">
-            TrustCart is a price intelligence platform built for Indian
+            Slash is a price intelligence platform built for Indian
             shoppers. We compare every major e-commerce site in real time, then
             use AI to expose inflated MRPs, fake discounts and unreliable
             sellers — so the "60% off" you see is actually 60% off.
@@ -190,7 +190,7 @@ function Landing() {
             <p>
               Our mission is to put a trustworthy second opinion in every
               shopper's pocket. Paste a link, scan a product, or compare across
-              platforms — TrustCart tells you the real lowest price, the real
+              platforms — Slash tells you the real lowest price, the real
               seller score, and whether you should wait.
             </p>
             <div className="grid sm:grid-cols-2 gap-3 pt-4">
@@ -237,7 +237,7 @@ function Landing() {
               lie."
             </blockquote>
             <figcaption className="mt-4 text-xs uppercase tracking-[0.18em] text-muted-foreground">
-              — TrustCart founding team
+              — Slash founding team
             </figcaption>
           </figure>
         </div>
@@ -339,7 +339,7 @@ function Landing() {
               <div>
                 <h3 className="text-2xl lg:text-4xl font-semibold tracking-tight leading-tight">
                   Stop guessing.{" "}
-                  <span className="text-gradient-aurora">Start TrustCarting.</span>
+                  <span className="text-gradient-aurora">Start Using Slash.</span>
                 </h3>
                 <p className="mt-3 text-sm text-muted-foreground">
                   Free forever for shoppers. No credit card. No spam.
@@ -365,7 +365,7 @@ function Landing() {
       </section>
 
       <footer className="px-4 lg:px-8 py-10 border-t border-border/40 text-xs text-muted-foreground text-center">
-        © {new Date().getFullYear()} TrustCart. Honest prices for India.
+        © {new Date().getFullYear()} Slash. Honest prices for India.
       </footer>
     </div>
   );
